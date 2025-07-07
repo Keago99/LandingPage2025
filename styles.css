@@ -19,11 +19,10 @@ body{
     height: 100px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
-.heroSection{
-    height: 430px;
-}
+
 
 .headerLogo{
     font-size: 24px;
@@ -36,6 +35,27 @@ body{
     gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.heroSection{
+    height: 330px;
+    display: flex;
+    gap: 50px;
+}
+
+.heroMainTxt{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.heroRight{
+    width: 800px;
+}
+
+.heroImg{
+    background-color: grey;
+    height: 220px;
 }
 
 .blockSection{
