@@ -30,11 +30,15 @@ body{
     font-weight: 900;
 }
 
+.headerLinks,.heroPara{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .headerLinks{
     display: flex;
     gap: 16px;
-    font-size: 18px;
-    color: #E5E7EB;
+
 }
 
 .heroSection{
@@ -47,6 +51,19 @@ body{
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+}
+
+.heroButton{
+    background-color: rgba(111, 54, 185, 0.842);
+    color: #f9faf8;
+    height: 40px;
+    width: 125px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 8px;
+    font-weight: bolder;
+    border: none;
+    font-size: 18px;
 }
 
 .heroRight{
