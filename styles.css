@@ -101,6 +101,7 @@ body{
 
 .block{
     display: flex;
+    flex-direction: column;
 }
 
 .innerBlock{
@@ -110,21 +111,64 @@ body{
     border-radius: 10px;
 }
 
+.blockText{
+    text-align: center;
+    text-wrap: balance;
+    color: rgb(82, 80, 80);
+    font-size: 18px;
+}
+
 
 .bigQoute{
-    background-color: yellow;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 500px;
     padding: 0 200px 0 200px;
+    align-items: center;
+    justify-content: center;
+}
+.qouteText{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.qoutee{
+    align-self: flex-end;
+    margin-right: 80px;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 .callToAction{
-    background-color: green;
-    height: 300px;
+    Display:flex;
+    background-color: white;
+    height: 400px;
     padding: 0 200px 0 200px;
 }
 
+.actionBox{
+    display: flex;
+    height: 150px;
+    width: 900px;
+    background-color: purple;
+    
+    margin-top: 130px;
+    margin-left: 100px;
+}
+
+.actionPoints{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer{
-    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
 }
 
 
